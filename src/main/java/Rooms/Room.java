@@ -14,4 +14,10 @@ public abstract class Room {
         this.roomContents = new ArrayList<Items>();
     }
 
+
+    public String getName(){
+        return name;
+    }
+
+
 }
