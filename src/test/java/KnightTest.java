@@ -24,12 +24,11 @@ public class KnightTest {
         assertEquals("Sir Bob", knight1.getName());
     }
 
-    /*
+
     @Test
     public void canGetHealthPoints(){
-    assertEquals(100, knight1.getHealthPoints();
+    assertEquals(100, knight1.getHealthPoints());
     }
 
 
-     */
 }

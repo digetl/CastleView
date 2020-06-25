@@ -23,4 +23,8 @@ public abstract class Player {
     public String getName(){
         return name;
     }
+
+    public int getHealthPoints(){
+        return healthPoints;
+    }
 }
