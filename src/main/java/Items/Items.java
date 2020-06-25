@@ -14,4 +14,12 @@ public abstract class Items {
     public String getName(){
         return name;
     }
+
+    public int getAttackPoints(){
+        return attackPoints;
+    }
+
+    public int getHealPoints(){
+        return healPoints;
+    }
 }

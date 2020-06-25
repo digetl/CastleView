@@ -19,4 +19,14 @@ public class SwordTest {
         assertEquals("Stabby McStabby", sword1.getName());
     }
 
+    @Test
+    public void canGetAttackPoints() {
+        assertEquals(20, sword1.getAttackPoints());
+    }
+
+    @Test
+    public void canGetHealPoints() {
+        assertEquals(0, sword1.getHealPoints());
+    }
+
 }
