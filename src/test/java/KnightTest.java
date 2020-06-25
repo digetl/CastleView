@@ -18,6 +18,7 @@ public class KnightTest {
     Knight knight1;
     Sword sword1;
     Sword sword2;
+
     Monster monster1;
     Monster monster2;
     BigClaw bigClaw;
