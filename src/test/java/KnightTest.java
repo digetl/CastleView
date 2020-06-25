@@ -56,4 +56,12 @@ public class KnightTest {
         assertEquals(30, monster1.getHealthPoints());
     }
 
+    @Test
+    public void canDefeatEnemy(){
+        knight1.attacked(monster1, sword1);
+        knight1.attacked(monster1, sword1);
+        knight1.attacked(monster1, sword1);
+        assertEquals(0, monster1.getHealthPoints());
+    }
+
 }

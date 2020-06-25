@@ -38,6 +38,12 @@ public abstract class Player implements Attackable {
     }
 
     public int attacked(Player player, Items weapon) {
-      return player.healthPoints -= weapon.getAttackPoints();
+       player.healthPoints -= weapon.getAttackPoints();
+        if(player.healthPoints < 0) {
+         return player.healthPoints = 0;
+        }
+        else return player.healthPoints;
+
     }
+
 }

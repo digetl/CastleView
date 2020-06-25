@@ -69,5 +69,12 @@ public class DungeonTest {
         assertEquals(1, dungeon.roomContentCount());
     }
 
+    @Test
+    public void canAddTwoPlayersToRoom() {
+        dungeon.addPlayerToRoom(knight1);
+        dungeon.addPlayerToRoom(monster1);
+        assertEquals(2, dungeon.roomPlayersCount());
+    }
+
 
 }
