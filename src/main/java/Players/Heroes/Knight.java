@@ -8,4 +8,6 @@ public class Knight extends Fighter{
         super(name, healthPoints, primaryWeapon, secondaryWeapon);
     }
 
+
+
 }

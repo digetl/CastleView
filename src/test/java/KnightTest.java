@@ -4,6 +4,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 public class KnightTest {
     
@@ -30,5 +31,9 @@ public class KnightTest {
     assertEquals(100, knight1.getHealthPoints());
     }
 
+    @Test
+    public void canGetPrimaryWeapon(){
+    assertEquals(sword1, knight1.getPrimaryWeapon());
+    }
 
 }

@@ -27,4 +27,8 @@ public abstract class Player {
     public int getHealthPoints(){
         return healthPoints;
     }
+
+    public Weapons getPrimaryWeapons(){
+        return primaryWeapon;
+    }
 }
