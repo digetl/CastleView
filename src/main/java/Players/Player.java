@@ -1,11 +1,12 @@
 package Players;
 
+import Behaviours.Attackable;
 import Items.Items;
 import Items.Weapons.Weapons;
 
 import java.util.ArrayList;
 
-public abstract class Player {
+public abstract class Player implements Attackable {
     private String name;
     private int healthPoints;
     private ArrayList<Items> inventory;
@@ -34,5 +35,9 @@ public abstract class Player {
 
     public Weapons getSecondaryWeapon(){
         return secondaryWeapon;
+    }
+
+    public int attacked(Player player, Items weapon) {
+      return player.healthPoints -= weapon.getAttackPoints();
     }
 }
