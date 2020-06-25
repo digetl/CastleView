@@ -10,8 +10,8 @@ public class Knight extends Fighter{
         super(name, healthPoints, primaryWeapon, secondaryWeapon);
     }
 
-    public int equipShield(){
-       return shield = 100;
+    public int equipShield(Player player){
+       return setHealthPoints(100);
     }
 
 }

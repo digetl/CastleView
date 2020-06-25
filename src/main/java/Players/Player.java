@@ -29,6 +29,10 @@ public abstract class Player implements Attackable {
         return healthPoints;
     }
 
+    public int setHealthPoints(int points){
+        return healthPoints += points;
+    }
+
     public Weapons getPrimaryWeapon(){
         return primaryWeapon;
     }
