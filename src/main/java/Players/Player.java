@@ -19,4 +19,8 @@ public abstract class Player {
         this.primaryWeapon = primaryWeapon;
         this.secondaryWeapon = secondaryWeapon;
     }
+
+    public String getName(){
+        return name;
+    }
 }
