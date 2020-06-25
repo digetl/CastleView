@@ -10,4 +10,8 @@ public abstract class Items {
         this.attackPoints = attackPoints;
         this.healPoints = healPoints;
     }
+
+    public String getName(){
+        return name;
+    }
 }

@@ -8,4 +8,5 @@ public abstract class Weapons extends Items {
         super(name, attackPoints, healthPoints);
     }
 
+
 }
