@@ -37,4 +37,11 @@ public abstract class Room {
     public void addItemToRoom(Items item){
         this.roomContents.add(item);
     }
+
+    public boolean moveToNewRoom(Player player) {
+        if (player.getHealthPoints() == 0) {
+            return true;
+        }
+        return false;
+    }
 }
