@@ -36,4 +36,9 @@ public class KnightTest {
     assertEquals(sword1, knight1.getPrimaryWeapon());
     }
 
+    @Test
+    public void canGetSecondaryWeapon(){
+        assertEquals(sword2, knight1.getSecondaryWeapon());
+    }
+
 }
