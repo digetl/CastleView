@@ -93,4 +93,10 @@ public class KnightTest {
 
     }
 
+//    @Test
+//    public void canEquipShield(){
+//        knight1.equipShield();
+//        assertEquals(200, knight1.getHealthPoints);
+//    }
+
 }
