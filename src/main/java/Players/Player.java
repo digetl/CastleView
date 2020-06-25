@@ -28,7 +28,11 @@ public abstract class Player {
         return healthPoints;
     }
 
-    public Weapons getPrimaryWeapons(){
+    public Weapons getPrimaryWeapon(){
         return primaryWeapon;
+    }
+
+    public Weapons getSecondaryWeapon(){
+        return secondaryWeapon;
     }
 }
