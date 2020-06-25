@@ -1,4 +1,4 @@
 package Players;
 
-public class Enemy {
+public class Enemy extends Player{
 }
